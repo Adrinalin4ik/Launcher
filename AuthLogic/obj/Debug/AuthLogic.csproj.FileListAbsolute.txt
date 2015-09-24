@@ -1,0 +1,7 @@
+D:\Программы C#\Launcher\AuthLogic\obj\Debug\Interop.SSCE.dll
+D:\Программы C#\Launcher\AuthLogic\obj\Debug\AuthLogic.csproj.ResolveComReference.cache
+D:\Программы C#\Launcher\AuthLogic\bin\Debug\AuthLogic.dll
+D:\Программы C#\Launcher\AuthLogic\bin\Debug\AuthLogic.pdb
+D:\Программы C#\Launcher\AuthLogic\obj\Debug\AuthLogic.dll
+D:\Программы C#\Launcher\AuthLogic\obj\Debug\AuthLogic.pdb
+D:\Программы C#\Launcher\AuthLogic\obj\Debug\AuthLogic.csprojResolveAssemblyReference.cache

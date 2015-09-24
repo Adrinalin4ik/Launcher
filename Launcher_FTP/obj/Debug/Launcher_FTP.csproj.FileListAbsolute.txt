@@ -1,0 +1,4 @@
+D:\Программы C#\Launcher\Launcher_FTP\bin\Debug\Launcher_FTP.dll
+D:\Программы C#\Launcher\Launcher_FTP\bin\Debug\Launcher_FTP.pdb
+D:\Программы C#\Launcher\Launcher_FTP\obj\Debug\Launcher_FTP.dll
+D:\Программы C#\Launcher\Launcher_FTP\obj\Debug\Launcher_FTP.pdb

@@ -1,0 +1,5 @@
+D:\Программы C#\Launcher\Launcher_AL\bin\Debug\Launcher_AL.dll
+D:\Программы C#\Launcher\Launcher_AL\bin\Debug\Launcher_AL.pdb
+D:\Программы C#\Launcher\Launcher_AL\obj\Debug\Launcher_AL.csprojResolveAssemblyReference.cache
+D:\Программы C#\Launcher\Launcher_AL\obj\Debug\Launcher_AL.dll
+D:\Программы C#\Launcher\Launcher_AL\obj\Debug\Launcher_AL.pdb

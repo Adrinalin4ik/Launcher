@@ -1,0 +1,5 @@
+D:\Программы C#\Launcher\Launcher_FTP\bin\Release\Launcher_FTP.dll
+D:\Программы C#\Launcher\Launcher_FTP\bin\Release\Launcher_FTP.pdb
+D:\Программы C#\Launcher\Launcher_FTP\obj\Release\Launcher_FTP.csprojResolveAssemblyReference.cache
+D:\Программы C#\Launcher\Launcher_FTP\obj\Release\Launcher_FTP.dll
+D:\Программы C#\Launcher\Launcher_FTP\obj\Release\Launcher_FTP.pdb

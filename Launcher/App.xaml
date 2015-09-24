@@ -1,0 +1,16 @@
+﻿<Application
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="Launcher.App"
+	StartupUri="AuthWindow.xaml">
+	<Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Core.xaml"/>
+                <ResourceDictionary Source="Brushes.xaml"/>
+                <ResourceDictionary Source="Icons.xaml"/>
+                <ResourceDictionary Source="Simple Styles.xaml"/> 
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

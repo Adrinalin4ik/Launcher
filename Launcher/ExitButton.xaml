@@ -1,0 +1,55 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="Launcher.ExitButton"
+	x:Name="UserControl"
+	d:DesignWidth="15" d:DesignHeight="15">
+	<UserControl.Resources>
+		<Storyboard x:Key="OnMouseEnter1">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Offset)" Storyboard.TargetName="rectangle">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.409"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="OnMouseLeave1">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Offset)" Storyboard.TargetName="rectangle">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.034"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="OnMouseLeftButtonDown1">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Offset)" Storyboard.TargetName="rectangle">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Offset)" Storyboard.TargetName="rectangle">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.634"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+	<UserControl.Triggers>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter">
+			<BeginStoryboard x:Name="OnMouseEnter1_BeginStoryboard" Storyboard="{StaticResource OnMouseEnter1}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave">
+			<BeginStoryboard x:Name="OnMouseLeave1_BeginStoryboard" Storyboard="{StaticResource OnMouseLeave1}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="UIElement.MouseLeftButtonDown">
+			<BeginStoryboard x:Name="OnMouseLeftButtonDown1_BeginStoryboard" Storyboard="{StaticResource OnMouseLeftButtonDown1}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="UIElement.MouseLeftButtonUp">
+			<RemoveStoryboard BeginStoryboardName="OnMouseLeftButtonDown1_BeginStoryboard"/>
+		</EventTrigger>
+	</UserControl.Triggers>
+
+	<Grid x:Name="LayoutRoot">
+		<Rectangle x:Name="rectangle" Stroke="#FFFFE1E1" RadiusY="49.5" RadiusX="49.5" RenderTransformOrigin="0.444,0.474" OpacityMask="#FFE91919">
+			<Rectangle.Fill>
+				<RadialGradientBrush>
+					<GradientStop Color="#FFFBFBFB" Offset="1"/>
+					<GradientStop Color="#FFF12F2F" Offset="0.039"/>
+				</RadialGradientBrush>
+			</Rectangle.Fill>
+		</Rectangle>
+	</Grid>
+</UserControl>

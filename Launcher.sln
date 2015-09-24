@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher", "Launcher\Launcher.csproj", "{B17ADF97-7931-4418-A4CD-CC0374743CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthLogic", "AuthLogic\AuthLogic.csproj", "{7CB6211F-0324-43A0-B912-FEB20180EE14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher_FTP", "Launcher_FTP\Launcher_FTP.csproj", "{CF81B3A4-29CC-424E-AF85-8D286929292B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B17ADF97-7931-4418-A4CD-CC0374743CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17ADF97-7931-4418-A4CD-CC0374743CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17ADF97-7931-4418-A4CD-CC0374743CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17ADF97-7931-4418-A4CD-CC0374743CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB6211F-0324-43A0-B912-FEB20180EE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB6211F-0324-43A0-B912-FEB20180EE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB6211F-0324-43A0-B912-FEB20180EE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB6211F-0324-43A0-B912-FEB20180EE14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF81B3A4-29CC-424E-AF85-8D286929292B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF81B3A4-29CC-424E-AF85-8D286929292B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF81B3A4-29CC-424E-AF85-8D286929292B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF81B3A4-29CC-424E-AF85-8D286929292B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
